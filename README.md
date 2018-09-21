@@ -10,3 +10,6 @@
 
  Het objectmodel is niet volledig geïmplementeerd. De tests zijn ook nog niet volledig. Deze stap is opzettelijk zo gelaten om te tonen dat het objectmodel maken en de tests implementeren niet los van elkaar staan.
  Beiden worden stukje bij beetje aangevuld, tot het resultaat voldoende kwalitatief is, vaak binnen een bepaalde tijd.
+
+ In een unit test kan je code schrijven zoals je het zou moeten kunnen schrijven, zelfs al is het zo nog niet geïmplementeerd in het objectmodel.
+ Unit tests vormen zodoende een beschrijving van hoe je je objectmodel kan gebruiken.
