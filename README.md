@@ -1,19 +1,20 @@
 # anaprog-TodoApi
 
-Voorbbeeld hoe je een Todo API kan opbouwen in ASP.NET Core
+ ## stap 2 - Voeg een unit test project toe
 
-Je kan de branches bekijken op stap per stap een overzicht te krijgen van hoe de applicatie wordt gemaakt.
+  + rechts klikken op de solution in Solution Explorer
+  + **Add > New project...**
+  + In het dialoogvenster *Add new project*
+     + Onder **Installed > Visual C# > Test**, kies *MsTest Test Project (.NET Core)*
+     + Name: TodoTests
+     + Klik OK
 
-## Stap 1 (branch stap1)
+Het testproject *TodoTests* wordt toegevoegd aan de solution *TodoApi*.
 
-In Visual Studio, kies in het menu **File > New > Project...**
+Voeg nu in *TodoTests* een dependency naar het project *TodoObjectModel* toe. Doe daarvoor het volgende in *Solution Explorer*:
 
-Er opent een venster *New Project*. Doe het volgende in dat venster:
-
- + Kies als projecttype *Class Library (.NET Standard)   Visual C#*
- + Name: *TodoObjectModel*
- + Location: de plaats waar je je git repository hebt aangemaakt of gekloond
- + Solution: *Create new solution*
- + Solution name: *TodoApi*
- + Create directory for solution: ja
- + Create new Git repository: nee
+ + In het project *TodoTests* rechts klikken op *Dependencies*
+ + **Add Reference...**
+ + In *Reference manager - TodoTests*
+    + Vink *TodoObjectModel* aan
+    + Klik op OK
