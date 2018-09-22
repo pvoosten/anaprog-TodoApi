@@ -10,6 +10,16 @@ namespace TodoObjectModel
     /// </summary>
     public class TodoItem
     {
+        private readonly string _todoTitel;
+
+        public TodoItem(string todoTitel)
+        {
+            Id = VolgendId;
+            _todoTitel = todoTitel;
+        }
+
+        public static int VolgendId { get; set; } = 1000;
+
         /// <summary>
         /// Uniek identificatienummer van deze taak
         /// </summary>
@@ -25,6 +35,8 @@ namespace TodoObjectModel
         /// </summary>
         public DateTime? TijdstipAfgevinkt { get; set; }
 
-        public bool IsAfgevinkt => TijdstipAfgevinkt != null;
+        public bool IsAfgevinkt => TijdstipAfgevinkt != null; // gebruik "lampje" om om te zetten naar voluit geschreven property of omgekeerd
+
+        public void VinkAf() => TijdstipAfgevinkt = DateTime.Now; // gebruik "lampje" om om te zetten naar methode met accolades of omgekeerd
     }
 }

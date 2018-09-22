@@ -1,15 +1,19 @@
 # anaprog-TodoApi
 
- ## stap 3 - unit tests maken
+## stap 4 - Alles compileerbaar maken
 
- Maak unit tests voor alles wat met het objectmodel moet kunnen gedaan worden via de REST interface die we gaan maken.
+De unit tests en het objectmodel worden verder afgewerkt, totdat ze compileerbaar zijn.
+Niet alle nodige tests worden geïmplementeerd.
+Zoek zelf *corner cases*, speciale gevallen die een extra test nodig hebben.
 
- Het objectmodel wordt gedeeltelijk geïmplementeerd en er worden tests geschreven die bepalen hoe je ermee kan werken. Je maakt dus een API in het objectmodel terwijl je tegelijk uitprobeert in de unit tests hoe je er gemakkelijk mee kan werken.
+Voer de tests uit in **Test Explorer**. Je zal merken dat sommige tests falen.
 
- Die manier van werken heet **Test Driven Development**
+Als een test faalt moet je eerste gedachte niet zijn: 
 
- Het objectmodel is niet volledig geïmplementeerd. De tests zijn ook nog niet volledig. Deze stap is opzettelijk zo gelaten om te tonen dat het objectmodel maken en de tests implementeren niet los van elkaar staan.
- Beiden worden stukje bij beetje aangevuld, tot het resultaat voldoende kwalitatief is, vaak binnen een bepaalde tijd.
+*wat is er mis met mijn test?*,
 
- In een unit test kan je code schrijven zoals je het zou moeten kunnen schrijven, zelfs al is het zo nog niet geïmplementeerd in het objectmodel.
- Unit tests vormen zodoende een beschrijving van hoe je je objectmodel kan gebruiken.
+maar
+
+*wat is er mis met mijn code?*
+
+
