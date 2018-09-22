@@ -16,4 +16,15 @@ maar
 
 *wat is er mis met mijn code?*
 
+### Linq
+
+Enkele mogelijkheden van Linq worden gedemonstreerd in de klasse *Persoon*.
+
+### Pragma's
+
+Bekijk de inhoud van het deelvenster *Error list*
+
+Bij het builden van de unit tests zie je een warning verschijnen.
+Die warning is het gevolg van een pragma `#warning`. Daarmee kan je de compiler warnings laten genereren, zodat je herinnerd wordt aan wat nog moet verbeterd worden aan de code. `#error` laat je zelfs toe de compilatie te stoppen en daarbij een melding te geven waarom.
+
 
